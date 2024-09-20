@@ -33,6 +33,7 @@ class _BrandFilterBottomsheetLayoutState
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
+          //List of Brands
           SizedBox(
             height: 600,
             width: double.infinity,
@@ -64,6 +65,7 @@ class _BrandFilterBottomsheetLayoutState
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
+                //Cancel Filter Button
                 CustomButton(
                   width: 150,
                   onPressed: () {
@@ -74,6 +76,8 @@ class _BrandFilterBottomsheetLayoutState
                   borderColor: AppColors.grey,
                   color: AppColors.white,
                 ),
+
+                //Apply Filter Buttons
                 CustomButton(
                   width: 150,
                   onPressed: () {
